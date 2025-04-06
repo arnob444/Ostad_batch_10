@@ -14,13 +14,13 @@ void main() {
     averages[name] = double.parse(avg.toStringAsFixed(2));
   }
 
-  var finalAns = averages.entries.toList()
+  var finalList = averages.entries.toList()
     ..sort((a, b) => b.value.compareTo(a.value));
 
 
-  Map<String, double> sortedAverages = {
-    for (var entry in finalAns) entry.key: entry.value
+  Map<String, double> ans = {
+    for (var entry in finalList) entry.key: entry.value
   };
 
-  print(sortedAverages);
+  print(ans);
 }
