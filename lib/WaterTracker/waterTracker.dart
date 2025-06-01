@@ -98,11 +98,7 @@ class _WatertrackerState extends State<Watertracker> {
             Wrap(
               spacing: 20,
               children: [
-                addWaterButton(
-                  amount: 200,
-                  onClick: () => waterAdd(200),
-                  icon: Icons.water_drop_outlined,
-                ),
+                addWaterButton(amount: 200, onClick: () => waterAdd(200), icon: Icons.water_drop_outlined),
                 addWaterButton(amount: 500, onClick: () => waterAdd(500)),
                 addWaterButton(amount: 700, onClick: () => waterAdd(700)),
               ],
