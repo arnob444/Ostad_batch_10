@@ -36,7 +36,7 @@ class _TodoScreenState extends State<TodoScreen> {
       context: context,
       builder:
           (context) => AlertDialog(
-            title: Text(index != null ? 'Edit task' : 'Add_task'),
+            title: Text(index != null ? 'Edit task' : 'Add task'),
             content: TextField(
               controller: taskController,
               decoration: InputDecoration(hintText: "Enter Task"),
@@ -78,6 +78,10 @@ class _TodoScreenState extends State<TodoScreen> {
     });
   }
 
+  // int activeCount() {
+  //   return tasks.where((task) => !task['completed']).length;
+  // }
+
   int get activeCount => tasks.where((task) => !task['completed']).length;
   int get completedCount => tasks.where((task) => task['completed']).length;
   @override
@@ -89,7 +93,7 @@ class _TodoScreenState extends State<TodoScreen> {
       appBar: AppBar(
         backgroundColor: Colors.blue,
         title: Text(
-          'Amazing Todo List',
+          'Amazing Todo App',
           style: TextStyle(fontWeight: FontWeight.w500, color: Colors.white),
         ),
         centerTitle: true,
@@ -177,7 +181,7 @@ class _TodoScreenState extends State<TodoScreen> {
               ),
             ],
           ),
-
+          SizedBox(height: 20),
           Expanded(
             child: ListView.builder(
               itemCount: filtertasks.length,
