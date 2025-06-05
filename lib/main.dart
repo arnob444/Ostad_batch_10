@@ -1,5 +1,6 @@
 // ignore_for_file: unused_import
 import 'package:buttonexpert/Calculator/calculator.dart';
+import 'package:buttonexpert/ExpenseTracker/expenseTracker.dart';
 import 'package:buttonexpert/Funcational%20ToDo/todo.dart';
 import 'package:buttonexpert/RestAPI/restapi.dart';
 import 'package:buttonexpert/WaterTracker/waterTracker.dart';
@@ -15,16 +16,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:device_preview/device_preview.dart';
 
-// void main() {
-//   runApp(MyApp());
-// }
+void main() {
+  runApp(MyApp());
+}
 
-void main() => runApp(
-  DevicePreview(
-    enabled: true,
-    builder: (context) => MyApp(), // Wrap your app
-  ),
-);
+// void main() => runApp(
+//   DevicePreview(
+//     enabled: true,
+//     builder: (context) => MyApp(), // Wrap your app
+//   ),
+// );
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -50,7 +51,8 @@ class MyApp extends StatelessWidget {
           // home: CalculatorApp(),
           // home: Watertracker(),
           // home: TodoScreen(),
-          home: RestaAPILearn(),
+          // home: RestaAPILearn(),
+          home: Expensetracker(),
           // home: StatefullClass(),
           // home: TodoList(),
           // home: MediaqueryScreen(),
