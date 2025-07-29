@@ -1,15 +1,18 @@
-// import 'package:buttonexpert/home_screen.dart';
-// import 'package:buttonexpert/statefull.dart';
-// import 'package:buttonexpert/mediaquery.dart';
-// import 'package:buttonexpert/todo_list.dart';
-// import 'package:buttonexpert/aspect_ratio.dart';
+// ignore_for_file: unused_import
+import 'package:buttonexpert/Calculator/calculator.dart';
+import 'package:buttonexpert/ExpenseTracker/expenseTracker.dart';
+import 'package:buttonexpert/Funcational%20ToDo/todo.dart';
+import 'package:buttonexpert/RestAPI/restapi.dart';
+import 'package:buttonexpert/WaterTracker/waterTracker.dart';
+import 'package:buttonexpert/alert.dart';
 import 'package:buttonexpert/aspect_ratio.dart';
 import 'package:buttonexpert/drawer.dart';
 import 'package:buttonexpert/form_login.dart';
+import 'package:buttonexpert/lifeCycle.dart';
 import 'package:buttonexpert/new_screen.dart';
 import 'package:buttonexpert/statefull.dart';
 import 'package:buttonexpert/todo_list.dart';
-// import 'package:buttonexpert/form_login.dart';
+import 'package:buttonexpert/utils/API_basics.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:device_preview/device_preview.dart';
@@ -41,9 +44,17 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Explore',
           // home: NewScreen(),
-          home: FormLogin(),
+          // home: FormLogin(),
           // home: AspectRationScreen(),
           // home: DrawerScreen(),
+          // home: Lifecycle(),
+          // home: AlertScreen(),
+          // home: CalculatorApp(),
+          // home: Watertracker(),
+          // home: TodoScreen(),
+          // home: RestaAPILearn(),
+          home: ApiBasics(),
+          // home: Expensetracker(),
           // home: StatefullClass(),
           // home: TodoList(),
           // home: MediaqueryScreen(),

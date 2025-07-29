@@ -28,7 +28,7 @@ class _TodoListState extends State<TodoList> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 140, 164, 176),
+      backgroundColor: Colors.blueGrey.shade200,
       appBar: AppBar(
         title: Text('TODO App', style: TextStyle(fontWeight: FontWeight.bold)),
         centerTitle: true,
