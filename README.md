@@ -1,16 +1,113 @@
-# todo_list
+# Todo List App
 
-A new Flutter project.
+A simple and clean task management app built with Flutter and GetX.  
+It allows users to create task categories, add tasks, track progress, delete tasks with drag-and-drop and view reports. The app focuses on smooth interactions, modular code structure and local data persistence.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Create task categories  
+- Add tasks using a custom dialog  
+- Drag and drop to delete  
+- Progress tracking with visual indicators  
+- Report screen for task statistics  
+- Tab navigation (Home + Report)  
+- Local storage with GetStorage  
+- Smooth UI feedback using EasyLoading  
+- Reusable widgets and clean UI components  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Screenshots
+
+_Add your screenshots here_
+
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-----------|----------|
+| Flutter | Application development |
+| GetX | State management, routing, DI |
+| GetStorage | Local storage |
+| EasyLoading | UI feedback |
+| Equatable | Model comparison |
+| Step Progress Indicator | Progress tracking |
+| Intl | Date formatting |
+
+---
+
+## 📂 Project Structure
+
+lib/
+└── app/
+├── core/
+│ ├── utils/
+│ │ ├── extensions.dart
+│ │ └── keys.dart
+│ └── values/
+│ ├── colors.dart
+│ └── icons.dart
+├── data/
+├── modules/
+│ ├── home/
+│ │ ├── widgets/
+│ │ │ ├── add_cart.dart
+│ │ │ ├── add_dialog.dart
+│ │ │ └── task_cart.dart
+│ │ ├── controller.dart
+│ │ ├── binding.dart
+│ │ └── view.dart
+│ ├── detail/
+│ │ ├── widgets/
+│ │ └── view.dart
+│ └── report/
+│ └── view.dart
+└── widgets/
+
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repository
+  ```bash
+   git clone https://github.com/arnob444/Flutter_all_projects_006.git
+   
+2. Go to the project directory
+```bash
+  cd todo_list
+
+3. Install dependencies
+```bash
+  flutter pub get
+
+4. Run the app
+```bash
+ flutter run
+---
+
+## Dependencies:
+get  
+get_storage  
+equatable  
+flutter_easyloading  
+device_preview  
+dotted_border  
+step_progress_indicator  
+intl  
+
+## Key Highlights
+
+Modular architecture for clean code separation
+
+Custom extensions for responsive UI
+
+Reusable widgets for dialogs, cards and report components
+
+GetX controllers for state and logic
+
+Smooth drag-and-drop interactions
