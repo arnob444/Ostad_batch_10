@@ -113,3 +113,4 @@ Reusable widgets for dialogs, cards and report components
 GetX controllers for state and logic
 
 Smooth drag-and-drop interactions
+
