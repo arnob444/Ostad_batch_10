@@ -29,18 +29,19 @@ _Add your screenshots here_
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
-|-----------|----------|
-| Flutter | Application development |
-| GetX | State management, routing, DI |
-| GetStorage | Local storage |
-| EasyLoading | UI feedback |
-| Equatable | Model comparison |
-| Step Progress Indicator | Progress tracking |
-| Intl | Date formatting |
+| :----------| :----------|
+| **Flutter** | Application development |
+| **GetX** | State management, routing|
+| **GetStorage** | Local storage |
+| **EasyLoading** | UI feedback |
+| **Equatable** | Model comparison |
+| **Step Progress Indicator** | Progress tracking |
+| **Intl** | Date formatting |
 
 ---
 
 ## 📂 Project Structure
+ ```pqsql
 
 lib/
 └── app/
@@ -68,21 +69,21 @@ lib/
     │       └── view.dart
 └── widgets/
 
-
+```
 ## ⚙️ How to Run
 
 1. Clone the repository
   ```bash
-   git clone https://github.com/arnob444/Flutter_all_projects_006.git
+  git clone https://github.com/arnob444/Flutter_all_projects_006.git
    
 2. Go to the project directory
-  cd todo_list
+     cd todo_list
 
 3. Install dependencies
-  flutter pub get
+     flutter pub get
 
 4. Run the app
- flutter run
+     flutter run
 
  ```
 
@@ -107,3 +108,4 @@ Reusable widgets for dialogs, cards and report components
 GetX controllers for state and logic
 
 Smooth drag-and-drop interactions
+
