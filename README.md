@@ -21,11 +21,8 @@ It allows users to create task categories, add tasks, track progress, delete tas
 
 ## 📱 Screenshots
 
-![Home Screen](assets/1.png)
-![Add Task  Screen](assets/2.png)
-![Add Items Screen](assets/3.png)
-![Add Activity Screen](assets/4.png)
-![Report Screen](assets/5.png)
+![Home Screen](assets/poster.png)
+
 
 
 
