@@ -44,32 +44,30 @@ _Add your screenshots here_
 
 lib/
 └── app/
-├── core/
-│ ├── utils/
-│ │ ├── extensions.dart
-│ │ └── keys.dart
-│ └── values/
-│ ├── colors.dart
-│ └── icons.dart
-├── data/
-├── modules/
-│ ├── home/
-│ │ ├── widgets/
-│ │ │ ├── add_cart.dart
-│ │ │ ├── add_dialog.dart
-│ │ │ └── task_cart.dart
-│ │ ├── controller.dart
-│ │ ├── binding.dart
-│ │ └── view.dart
-│ ├── detail/
-│ │ ├── widgets/
-│ │ └── view.dart
-│ └── report/
-│ └── view.dart
+    ├── core/
+    │   ├── utils/
+    │   │   ├── extensions.dart
+    │   │   └── keys.dart
+    │   └── values/
+    │       ├── colors.dart
+    │       └── icons.dart
+    ├── data/
+    ├── modules/
+    │   ├── home/
+    │   │   ├── widgets/
+    │   │   │   ├── add_cart.dart
+    │   │   │   ├── add_dialog.dart
+    │   │   │   └── task_cart.dart
+    │   │   ├── controller.dart
+    │   │   ├── binding.dart
+    │   │   └── view.dart
+    │   ├── detail/
+    │   │   ├── widgets/
+    │   │   └── view.dart
+    │   └── report/
+    │       └── view.dart
 └── widgets/
 
-
----
 
 ## ⚙️ How to Run
 
@@ -78,17 +76,15 @@ lib/
    git clone https://github.com/arnob444/Flutter_all_projects_006.git
    
 2. Go to the project directory
-```bash
   cd todo_list
 
 3. Install dependencies
-```bash
   flutter pub get
 
 4. Run the app
-```bash
  flutter run
----
+
+ ```
 
 ## Dependencies:
 get  
