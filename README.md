@@ -21,7 +21,12 @@ It allows users to create task categories, add tasks, track progress, delete tas
 
 ## 📱 Screenshots
 
-_Add your screenshots here_
+![Home Screen](assets/1.png)
+![Add Task  Screen](assets/2.png)
+![Add Items Screen](assets/3.png)
+![Add Activity Screen](assets/4.png)
+![Report Screen](assets/5.png)
+
 
 
 ---
@@ -29,66 +34,63 @@ _Add your screenshots here_
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
-|-----------|----------|
-| Flutter | Application development |
-| GetX | State management, routing, DI |
-| GetStorage | Local storage |
-| EasyLoading | UI feedback |
-| Equatable | Model comparison |
-| Step Progress Indicator | Progress tracking |
-| Intl | Date formatting |
+| :----------| :----------|
+| **Flutter** | Application development |
+| **GetX** | State management, routing|
+| **GetStorage** | Local storage |
+| **EasyLoading** | UI feedback |
+| **Equatable** | Model comparison |
+| **Step Progress Indicator** | Progress tracking |
+| **Intl** | Date formatting |
 
 ---
 
 ## 📂 Project Structure
+ ```pqsql
 
 lib/
 └── app/
-├── core/
-│ ├── utils/
-│ │ ├── extensions.dart
-│ │ └── keys.dart
-│ └── values/
-│ ├── colors.dart
-│ └── icons.dart
-├── data/
-├── modules/
-│ ├── home/
-│ │ ├── widgets/
-│ │ │ ├── add_cart.dart
-│ │ │ ├── add_dialog.dart
-│ │ │ └── task_cart.dart
-│ │ ├── controller.dart
-│ │ ├── binding.dart
-│ │ └── view.dart
-│ ├── detail/
-│ │ ├── widgets/
-│ │ └── view.dart
-│ └── report/
-│ └── view.dart
+    ├── core/
+    │   ├── utils/
+    │   │   ├── extensions.dart
+    │   │   └── keys.dart
+    │   └── values/
+    │       ├── colors.dart
+    │       └── icons.dart
+    ├── data/
+    ├── modules/
+    │   ├── home/
+    │   │   ├── widgets/
+    │   │   │   ├── add_cart.dart
+    │   │   │   ├── add_dialog.dart
+    │   │   │   └── task_cart.dart
+    │   │   ├── controller.dart
+    │   │   ├── binding.dart
+    │   │   └── view.dart
+    │   ├── detail/
+    │   │   ├── widgets/
+    │   │   └── view.dart
+    │   └── report/
+    │       └── view.dart
 └── widgets/
 
-
----
-
+```
 ## ⚙️ How to Run
 
 1. Clone the repository
   ```bash
-   git clone https://github.com/arnob444/Flutter_all_projects_006.git
+  git clone https://github.com/arnob444/Flutter_all_projects_006.git
    
 2. Go to the project directory
-```bash
-  cd todo_list
+     cd todo_list
 
 3. Install dependencies
-```bash
-  flutter pub get
+     flutter pub get
 
 4. Run the app
-```bash
- flutter run
----
+     flutter run
+
+ ```
 
 ## Dependencies:
 get  
